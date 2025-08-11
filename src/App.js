@@ -4,7 +4,9 @@
 //     </div>
 // }
 
-import Movies from "./Movies/Movies";
+// import CompA from "./Components/CompA";
+import Message from "./Components/Message";
+// import Movies from "./Movies/Movies";
 
 // export default App;
 
@@ -17,8 +19,11 @@ let App = ()=>{
         <h2> App Components</h2>
         <hr></hr>
 
-        <Movies/>
+        {/* <Movies/> */}
 
+        {/* <CompA/> */}
+
+        <Message/>
          
     </div>
 }
