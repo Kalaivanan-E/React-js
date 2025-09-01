@@ -1,6 +1,6 @@
 
 import React from "react";
-import User from "./User";
+import Message from "./Message";
 
 let App =()=>{
 
@@ -8,7 +8,7 @@ let App =()=>{
     return <div>
         <h2> App Component</h2>
         <hr />
-        <User/>
+        <Message/>
     </div>
 }
 
