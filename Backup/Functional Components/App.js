@@ -1,15 +1,10 @@
-import Employees from "./Components/Employees";
-import Employee from "./Components/Employees1";
 import Message from "./Components/Message";
 
 let App = ()=>{
     return <div>
         <h2>App Components</h2>
         <hr />
-       <Message/>
-       <hr />
-      <Employee/>
-       
+        <Message/>
     </div>
 }
 export default App;
